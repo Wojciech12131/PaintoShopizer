@@ -27,7 +27,7 @@ public class DataConfiguration {
     @Value("${db.driverClass}")
     private String driverClassName;
     
-    @Value("${db.jdbcUrl}")
+    @Value("${db.jdbc.url}")
     private String url;
     
     @Value("${db.user}")
